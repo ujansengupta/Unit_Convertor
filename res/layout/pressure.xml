@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Length" >
+
+    <RadioGroup
+        android:id="@+id/RGP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="71dp" >
+
+        <RadioButton
+            android:id="@+id/bar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Bars (bars)" />
+
+        <RadioButton
+            android:id="@+id/psi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Pounds/Square Inch (psi)" />
+
+        <RadioButton
+            android:id="@+id/pft1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Pounds/Square Foot (pft)" />
+
+        <RadioButton
+            android:id="@+id/at1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Atmosphere (atm)" />
+
+        <RadioButton
+            android:id="@+id/inHg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inches of Mercury (inHg)" />
+
+        <RadioButton
+            android:id="@+id/cmHg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centimeters of Mercury (cmHg)" />
+
+        <RadioButton
+            android:id="@+id/kgsm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Kilograms/Square Meter (kg/m^2)" />
+
+        <RadioButton
+            android:id="@+id/pa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Pascals (pa)" />
+
+        <RadioButton
+            android:id="@+id/inAq1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Inches of Water (4°C)  (inAq)" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RGP2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="71dp" >
+
+        <RadioButton
+            android:id="@+id/bar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Bars (bars)" />
+
+        <RadioButton
+            android:id="@+id/psi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Pounds/Square Inch (psi)" />
+
+        <RadioButton
+            android:id="@+id/pft2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Pounds/Square Foot (pft)" />
+
+        <RadioButton
+            android:id="@+id/at2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Atmosphere (atm)" />
+
+        <RadioButton
+            android:id="@+id/inHg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inches of Mercury (inHg)" />
+
+        <RadioButton
+            android:id="@+id/cmHg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centimeters of Mercury (cmHg)" />
+
+        <RadioButton
+            android:id="@+id/kgsm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Kilograms/Square Meter (kg/m^2)" />
+
+        <RadioButton
+            android:id="@+id/pa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Pascals (pa)" />
+
+        <RadioButton
+            android:id="@+id/inAq2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Inches of Water (4°C)  (inAq)" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/ETP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RGP1"
+        android:layout_alignTop="@+id/TVP1"
+        android:ems="10"
+        android:hint="Enter a Value"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/TVP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RGP2"
+        android:layout_below="@+id/RGP2"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="55dp"
+        android:hint="Converted Value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

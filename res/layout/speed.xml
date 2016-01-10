@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Length" >
+
+    <RadioGroup
+        android:id="@+id/RGS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="71dp" >
+
+
+        <RadioButton
+            android:id="@+id/kmhr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Km-Hr " />
+
+        <RadioButton
+            android:id="@+id/msec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="M-Sec" />
+
+        <RadioButton
+            android:id="@+id/mihr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Miles-Hr" />
+
+        <RadioButton
+            android:id="@+id/knot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Knot" />
+
+        <RadioButton
+            android:id="@+id/fsec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feet-Sec" />
+
+       
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RGS2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/RGS1"
+        android:layout_marginRight="127dp" >
+
+        <RadioButton
+            android:id="@+id/kmhr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Km-Hr " />
+
+        <RadioButton
+            android:id="@+id/msec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="M-Sec" />
+
+        <RadioButton
+            android:id="@+id/mihr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Miles-Hr" />
+
+        <RadioButton
+            android:id="@+id/knot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Knot" />
+
+        <RadioButton
+            android:id="@+id/fsec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feet-Sec" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TVS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/RGS2"
+        android:layout_below="@+id/RGS2"
+        android:layout_marginTop="58dp"
+        android:hint="Converted Value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ETS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RGS1"
+        android:layout_alignTop="@+id/TVS1"
+        android:ems="10"
+        android:hint="Enter a Value"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

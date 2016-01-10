@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Length" >
+
+    <RadioGroup
+        android:id="@+id/RGT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="71dp" >
+
+
+        <RadioButton
+            android:id="@+id/cel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Celcius (C) " />
+
+        <RadioButton
+            android:id="@+id/far1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Farenheit (F)" />
+
+        <RadioButton
+            android:id="@+id/kel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Kelvin (K)" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RGT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/RGT1"
+        android:layout_marginRight="127dp" >
+
+        <RadioButton
+            android:id="@+id/cel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Celcius (C) " />
+
+        <RadioButton
+            android:id="@+id/far2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Farenheit (F)" />
+
+        <RadioButton
+            android:id="@+id/kel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Kelvin" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/ETT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RGT1"
+        android:layout_below="@+id/RGT1"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Enter a Value"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/TVT1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ETT1"
+        android:layout_alignLeft="@+id/RGT2"
+        android:hint="Converted Value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

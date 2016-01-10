@@ -1,0 +1,287 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Length" >
+
+
+    <RadioGroup
+        android:id="@+id/RGV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="71dp" >
+
+        
+        <RadioButton
+            android:id="@+id/cbm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Cubic Meter" />
+
+        <RadioButton
+            android:id="@+id/lit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Liter" />
+        
+
+        <RadioButton
+            android:id="@+id/usgal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="US Gallon" />
+
+        <RadioButton
+            android:id="@+id/usquar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="US Quart" />
+
+        <RadioButton
+            android:id="@+id/uspi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="US Pint" />
+
+        <RadioButton
+            android:id="@+id/uscup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="US Cup" />
+
+        <RadioButton
+            android:id="@+id/usoz1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="US Oz" />
+
+        <RadioButton
+            android:id="@+id/ustb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="US Tbsp" />
+
+        <RadioButton
+            android:id="@+id/usts1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="US Tsp" />
+        
+        <RadioButton
+            android:id="@+id/milit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Milliliter" />
+
+     
+        <RadioButton
+            android:id="@+id/impgal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Imperial Gallon" />
+
+        <RadioButton
+            android:id="@+id/impquar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Imperial Quart" />
+
+        <RadioButton
+            android:id="@+id/impi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Imperial Pint" />
+
+        <RadioButton
+            android:id="@+id/impcup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Imperial Cup" />
+
+        <RadioButton
+            android:id="@+id/impoz1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imperial Oz" />
+
+        <RadioButton
+            android:id="@+id/imptb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imperial Tbsp" />
+
+        <RadioButton
+            android:id="@+id/impts1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Imperial Tsp" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RGV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/RGV1"
+        android:layout_marginRight="108dp" >
+
+                <RadioButton
+            android:id="@+id/cbm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Cubic Meter" />
+
+        <RadioButton
+            android:id="@+id/lit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Liter" />
+        
+
+        <RadioButton
+            android:id="@+id/usgal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="US Gallon" />
+
+        <RadioButton
+            android:id="@+id/usquar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="US Quart" />
+
+        <RadioButton
+            android:id="@+id/uspi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="US Pint" />
+
+        <RadioButton
+            android:id="@+id/uscup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="US Cup" />
+
+        <RadioButton
+            android:id="@+id/usoz2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="US Oz" />
+
+        <RadioButton
+            android:id="@+id/ustb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="US Tbsp" />
+
+        <RadioButton
+            android:id="@+id/usts2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="US Tsp" />
+        
+        <RadioButton
+            android:id="@+id/milit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Milliliter" />
+
+     
+        <RadioButton
+            android:id="@+id/impgal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Imperial Gallon" />
+
+        <RadioButton
+            android:id="@+id/impquar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Imperial Quart" />
+
+        <RadioButton
+            android:id="@+id/impi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Imperial Pint" />
+
+        <RadioButton
+            android:id="@+id/impcup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Imperial Cup" />
+
+        <RadioButton
+            android:id="@+id/impoz2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imperial Oz" />
+
+        <RadioButton
+            android:id="@+id/imptb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imperial Tbsp" />
+
+        <RadioButton
+            android:id="@+id/impts2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Imperial Tsp" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/ETV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RGV1"
+        android:layout_below="@+id/RGV1"
+        android:layout_marginTop="79dp"
+        android:ems="10"
+        android:hint="Enter a Value"
+        android:inputType="numberDecimal" >
+
+        
+    </EditText>
+
+    <TextView
+       android:id="@+id/TVV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ETV1"
+        android:layout_alignRight="@+id/RGV2"
+        android:hint="Converted Value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Length" >
+
+    <RadioGroup
+        android:id="@+id/RGM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="71dp" >
+
+        <RadioButton
+            android:id="@+id/g1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Grams (g)" />
+
+        <RadioButton
+            android:id="@+id/micg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Micrograms (μg)" />
+
+        <RadioButton
+            android:id="@+id/mg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Milligrams (mg)" />
+
+        <RadioButton
+            android:id="@+id/kg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Kilograms (kg)" />
+
+        <RadioButton
+            android:id="@+id/MTon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metric Ton (M/T)" />
+
+        <RadioButton
+            android:id="@+id/LTon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long Ton (L/T)" />
+
+        <RadioButton
+            android:id="@+id/STon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Short Ton (S/T)" />
+
+        <RadioButton
+            android:id="@+id/stone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Stone (st)" />
+
+        <RadioButton
+            android:id="@+id/pound1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Pound (lb)" />
+
+        <RadioButton
+            android:id="@+id/ounce1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ounce (oz)" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RGM2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="54dp"
+        android:layout_marginTop="71dp" >
+
+        <RadioButton
+            android:id="@+id/g2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Grams (g)" />
+
+        <RadioButton
+            android:id="@+id/micg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Micrograms (μg)" />
+
+        <RadioButton
+            android:id="@+id/mg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Milligrams (mg)" />
+
+        <RadioButton
+            android:id="@+id/kg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Kilograms (kg)" />
+
+        <RadioButton
+            android:id="@+id/MTon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metric Ton (M/T)" />
+
+        <RadioButton
+            android:id="@+id/LTon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Long Ton (L/T)" />
+
+        <RadioButton
+            android:id="@+id/STon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Short Ton (S/T)" />
+
+        <RadioButton
+            android:id="@+id/stone2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Stone (st)" />
+
+        <RadioButton
+            android:id="@+id/pound2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Pound (lb)" />
+
+        <RadioButton
+            android:id="@+id/ounce2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ounce (oz)" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/ETM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RGM1"
+        android:layout_alignTop="@+id/TVM1"
+        android:ems="10"
+        android:hint="Enter a Value"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/TVM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RGM2"
+        android:layout_below="@+id/RGM2"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="55dp"
+        android:hint="Converted Value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

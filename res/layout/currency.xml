@@ -1,0 +1,270 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Currency" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioGroup
+            android:id="@+id/RGCustom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="111dp" >
+            
+            <RadioButton
+                android:id="@+id/dollar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dollar (USD-$)"
+                />
+
+            <RadioButton
+                android:id="@+id/pound1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pound Sterling (GBP-£)"
+                 />
+
+            <RadioButton
+                android:id="@+id/euro1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Euro (EUR-€)"
+                 />
+
+            <RadioButton
+                android:id="@+id/rupee1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rupee (INR-Rs )"
+              />
+
+            <RadioButton
+                android:id="@+id/custom10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/custom11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/custom12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/custom13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/custom14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/custom15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/RGCustom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/RGCustom1"
+            android:layout_marginRight="109dp" >
+            
+            <RadioButton
+                android:id="@+id/dollar2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dollar (USD-$)"
+                />
+
+            <RadioButton
+                android:id="@+id/pound2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pound Sterling (GBP-£)"
+                 />
+
+            <RadioButton
+                android:id="@+id/euro2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Euro (EUR-€)"
+                 />
+
+            <RadioButton
+                android:id="@+id/rupee2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rupee (INR-Rs )"
+              />
+
+            <RadioButton
+                android:id="@+id/custom20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/custom21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/custom22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/custom23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/custom24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/custom25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:visibility="invisible" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/ETCustom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TVCustom1"
+            android:layout_alignLeft="@+id/RGCustom1"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Enter a Value" >
+
+          
+        </EditText>
+
+        <TextView
+            android:id="@+id/TVCustom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ETCustom1"
+            android:layout_below="@+id/ButtonCustom1"
+            android:layout_marginTop="58dp"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/ETCustom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TVCustom2"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:ems="10"
+            android:hint="Enter a unit" />
+
+        <EditText
+            android:id="@+id/ETCustom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ETCustom2"
+            android:layout_below="@+id/ETCustom2"
+            android:layout_marginTop="57dp"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:hint="Enter a Value" />
+
+        <Button
+            android:id="@+id/ButtonCustom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/ETCustom1"
+            android:layout_marginTop="98dp"
+            android:text="Add New Currency" />
+
+        <Button
+            android:id="@+id/bDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TVCustom2"
+            android:layout_alignRight="@+id/ETCustom2"
+            android:text="Delete existing" />
+
+        <Button
+            android:id="@+id/bEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TVCustom2"
+            android:layout_centerHorizontal="true"
+            android:text="Edit existing" />
+
+        <TextView
+            android:id="@+id/TVCustom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/ButtonCustom1"
+            android:text="Value in Rupees"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TVCustom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bDelete"
+            android:layout_below="@+id/RGCustom2"
+            android:layout_marginTop="161dp"
+            android:hint="Converted Value"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/CopyConvertor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/RGCustom2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="31dp"
+            android:text="Copy to Clipboard"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </RelativeLayout>
+
+</ScrollView>

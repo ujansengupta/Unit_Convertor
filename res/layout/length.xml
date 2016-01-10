@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Length"
+    android:focusableInTouchMode="true" >
+
+
+    <RadioGroup
+        android:id="@+id/RG1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="71dp" >
+
+
+        <RadioButton
+            android:id="@+id/m1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Meter (m)" />
+
+        <RadioButton
+            android:id="@+id/ang1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Angstrom (A)" />
+
+        <RadioButton
+            android:id="@+id/mic1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Micron (μm)" />
+
+        <RadioButton
+            android:id="@+id/cm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Centimeter (cm)" />
+
+        <RadioButton
+            android:id="@+id/mm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Millimeter (mm)" />
+
+        <RadioButton
+            android:id="@+id/km1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kilometer (km)" />
+
+        <RadioButton
+            android:id="@+id/mile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Mile (mi)" />
+
+        <RadioButton
+            android:id="@+id/yard1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Yard (yd)" />
+
+        <RadioButton
+            android:id="@+id/foot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Foot (ft)" />
+
+        <RadioButton
+            android:id="@+id/inch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inch (in)" />
+
+        <RadioButton
+            android:id="@+id/Nmile1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nautical Mile (nmi)" />
+
+        <RadioButton
+            android:id="@+id/au1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Astronomical Unit (AU)" />
+
+        <RadioButton
+            android:id="@+id/ly1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light Year (ly)" />
+
+        <RadioButton
+            android:id="@+id/par1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parsec (pc)" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RG2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/RG1"
+        android:layout_marginRight="109dp" >
+
+        <RadioButton
+            android:id="@+id/m2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meter (m)" />
+
+        <RadioButton
+            android:id="@+id/ang2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Angstrom (A)" />
+
+        <RadioButton
+            android:id="@+id/mic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Micron (μm)" />
+
+        <RadioButton
+            android:id="@+id/cm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Centimeter (cm)" />
+
+        <RadioButton
+            android:id="@+id/mm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Millimeter (mm)" />
+
+        <RadioButton
+            android:id="@+id/km2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kilometer (km)" />
+
+        <RadioButton
+            android:id="@+id/mile2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mile (mi)" />
+
+        <RadioButton
+            android:id="@+id/yard2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yard (yd)" />
+
+        <RadioButton
+            android:id="@+id/foot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foot (ft)" />
+
+        <RadioButton
+            android:id="@+id/inch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inch (in)" />
+
+        <RadioButton
+            android:id="@+id/Nmile2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nautical Mile (nmi)" />
+
+        <RadioButton
+            android:id="@+id/au2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Astronomical Unit (AU)" />
+
+        <RadioButton
+            android:id="@+id/ly2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light Year (ly)" />
+
+        <RadioButton
+            android:id="@+id/par2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parsec (pc)" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/ET1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RG1"
+        android:layout_alignTop="@+id/TV1"
+        android:ems="10"
+        android:hint="Enter a Value"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RG2"
+        android:layout_below="@+id/RG2"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="55dp"
+        android:hint="Converted Value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

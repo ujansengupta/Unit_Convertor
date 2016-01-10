@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unitconvertor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainicon"
+        android:label="Unit Convertor"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.unitconvertor.Homescreen"
+            android:label="Unit Convertor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.MainActivity"
+            android:label="Unit Convertor" >
+            <intent-filter>
+                <action android:name="com.example.unitconvertor.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Length"
+            android:label="@string/title_activity_length"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Mass"
+            android:label="@string/title_activity_mass" >
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Temperature"
+            android:label="@string/title_activity_temperature" >
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Speed"
+            android:label="@string/title_activity_speed" >
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Pressure"
+            android:label="@string/title_activity_pressure" >
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Area"
+            android:label="@string/title_activity_area" >
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Volume"
+            android:label="@string/title_activity_volume" >
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.About"
+            android:label="@string/title_activity_about" >
+            <intent-filter>
+                <action android:name="com.example.unitconvertor.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Settings"
+            android:label="@string/title_activity_settings" >
+            <intent-filter>
+                <action android:name="com.example.unitconvertor.SETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Currency"
+            android:label="@string/title_activity_currency" >
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Custom"
+            android:label="@string/title_activity_custom" >
+        </activity>
+        <activity
+            android:name="com.example.unitconvertor.Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+    </application>
+
+</manifest>

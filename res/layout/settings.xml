@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings" >
+
+    <TextView
+        android:id="@+id/tvSound1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="137dp"
+        android:layout_marginTop="198dp"
+        android:text="Sound : On"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/IBSound1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvSound1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="116dp"
+        android:background="@drawable/sound"
+        android:src="@drawable/sound" />
+
+    <ImageButton
+        android:id="@+id/IBEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/IBSound1"
+        android:layout_below="@+id/IBSound1"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/email"
+        android:src="@drawable/email" />
+
+    <TextView
+        android:id="@+id/tvEmail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/IBEmail1"
+        android:layout_alignLeft="@+id/tvSound1"
+        android:text="Email Developers"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

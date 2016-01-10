@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Length" >
+
+
+    <RadioGroup
+        android:id="@+id/RGA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="71dp" >
+
+
+        <RadioButton
+            android:id="@+id/sqm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Square Meter " />
+
+        <RadioButton
+            android:id="@+id/sqkm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Square Kilometer" />
+
+        <RadioButton
+            android:id="@+id/sqf1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Square Foot" />
+
+        <RadioButton
+            android:id="@+id/sqmi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Square Mile" />
+
+        <RadioButton
+            android:id="@+id/hec1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hectare" />
+
+        <RadioButton
+            android:id="@+id/sqi1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Square Inch" />
+
+        <RadioButton
+            android:id="@+id/acr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Acre" />
+
+        <RadioButton
+            android:id="@+id/sqy1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Square Yard" />
+
+        
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/RGA2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/RGA1"
+        android:layout_marginRight="168dp" >
+
+        <RadioButton
+            android:id="@+id/sqm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Square Meter " />
+
+        <RadioButton
+            android:id="@+id/sqkm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Square Kilometer" />
+
+        <RadioButton
+            android:id="@+id/sqf2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Square Foot" />
+
+        <RadioButton
+            android:id="@+id/sqmi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Square Mile" />
+
+        <RadioButton
+            android:id="@+id/hec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hectare" />
+
+        <RadioButton
+            android:id="@+id/sqi2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Square Inch" />
+
+        <RadioButton
+            android:id="@+id/acr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Acre" />
+
+        <RadioButton
+            android:id="@+id/sqy2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Square Yard" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TVA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RGA2"
+        android:layout_below="@+id/RGA2"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="83dp"
+        android:hint="Converted Value"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ETA1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TVA1"
+        android:layout_alignLeft="@+id/RGA1"
+        android:ems="10"
+        android:hint="Enter a Value"
+        android:inputType="numberDecimal" />
+
+</RelativeLayout>
